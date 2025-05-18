@@ -14,7 +14,7 @@ const Home = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("name");
-    toast.success("logged out successfully");
+    toast.success("logged out successfully!");
     setTimeout(() => {
       navigate("/login");
     }, 1500);
